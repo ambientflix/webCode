@@ -73,7 +73,7 @@ public class SpringBootJSPApp extends SpringBootServletInitializer{
 			recFileInput = "";
 		}
 		
-		File myFile = new File("D:/twitter/movieRec.txt");
+		File myFile = new File("recFileInput");
 		Scanner reader = new Scanner(myFile);
 		int counter = 1;
 		while (reader.hasNextLine())
