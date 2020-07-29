@@ -16,6 +16,7 @@
     data-sri-failover='https://www.tempeunion.org/Static/GlobalAssets/Scripts/min/jquery-ui-1.10.1.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 </head>
 <body>
     <section style = "background-color:#3d424a;">
@@ -23,6 +24,7 @@
         <div class = "mt-5 mb-5">
            <div class = "text-center">
                <img src="${pageContext.request.contextPath}/pics/AmbientFlix.png" style = "width:30%;">
+               <h2 class = "p-5 mt-5" style="color:white; font-family: 'Mulish', sans-serif; width:60%; margin:auto;">Customized movie recommendations based on your twitter feed, friends, location, and local news and weather.</h2>
             </div>
         </div>    
         <div style = "background-color:#3d424a;" class = "p-2"></div>
