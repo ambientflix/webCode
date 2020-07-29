@@ -39,7 +39,7 @@ public class HelloController {
 	}
 	  
 	@GetMapping({"/hello"})
-    public String hello(Model model, @RequestParam(value="name", required=false, defaultValue="World") String name) {
+    public String hello(Model model) {
 		
 	    for (int i = 1; i < SpringBootJSPApp.al.size()+1; i++)
 	    {
